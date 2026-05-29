@@ -3,6 +3,9 @@ import DashboardLayout from './components/DashboardLayout';
 import Home from './pages/Home';
 import Bitacora from './pages/Bitacora';
 import Profile from './pages/Profile';
+import Galeria from './pages/Galeria';
+import ExploradorDatos from './pages/ExploradorDatos';
+import ArbolComponentes from './pages/ArbolComponentes';
 
 export default function App() {
   return (
@@ -12,6 +15,9 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="bitacora" element={<Bitacora />} />
           <Route path="profile/:id" element={<Profile />} />
+          <Route path="galeria" element={<Galeria />} />
+          <Route path="explorador-datos" element={<ExploradorDatos />} />
+          <Route path="arbol-componentes" element={<ArbolComponentes />} />
         </Route>
       </Routes>
     </BrowserRouter>

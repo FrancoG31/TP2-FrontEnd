@@ -18,7 +18,7 @@ export default function Sidebar() {
       {/* HEADER MÓVIL (Solo visible en pantallas pequeñas) */}
       <div className="mobile-header">
         <Link to="/" className="nav-logo" onClick={closeSidebar}>
-          <span className="logo-bracket">[</span>DYNAMIS<span className="logo-bracket">]</span>
+          DYNAMIS
         </Link>
         <button className="hamburger-btn" onClick={toggleSidebar} aria-label="Toggle Menu">
           <div className={`bar ${isOpen ? 'open' : ''}`}></div>
@@ -35,9 +35,11 @@ export default function Sidebar() {
         <div className="sidebar-top">
           <div className="sidebar-brand">
             <Link to="/" className="nav-logo" onClick={closeSidebar}>
-              <span className="logo-bracket">[</span>DYNAMIS<span className="logo-bracket">]</span>
+              <div className="sidebar-logo-container">
+                <img src="/img/logo.png" alt="Dynamis Logo" className="sidebar-logo" />
+              </div>
+              DYNAMIS
             </Link>
-            <div className="sidebar-subtitle-tag">NEXUS v2.0</div>
           </div>
 
           <nav className="sidebar-nav">
@@ -57,6 +59,27 @@ export default function Sidebar() {
                 onClick={closeSidebar}
               >
                 <span className="link-bullet">▶</span> BITÁCORA
+              </NavLink>
+              <NavLink 
+                to="/galeria" 
+                className={({ isActive }) => `sidebar-link ${isActive ? 'active' : ''}`}
+                onClick={closeSidebar}
+              >
+                <span className="link-bullet">▶</span> GALERÍA
+              </NavLink>
+              <NavLink 
+                to="/explorador-datos" 
+                className={({ isActive }) => `sidebar-link ${isActive ? 'active' : ''}`}
+                onClick={closeSidebar}
+              >
+                <span className="link-bullet">▶</span> EXPLORADOR DE DATOS
+              </NavLink>
+              <NavLink 
+                to="/arbol-componentes" 
+                className={({ isActive }) => `sidebar-link ${isActive ? 'active' : ''}`}
+                onClick={closeSidebar}
+              >
+                <span className="link-bullet">▶</span> ARBOL DE COMPONENTES
               </NavLink>
             </div>
 
