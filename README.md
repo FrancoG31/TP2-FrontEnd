@@ -147,19 +147,19 @@ Cada perfil (`Ximena`, `Franco`, `Rodrigo`, `Mara`) es un componente independien
 > Reemplazar con capturas reales del proyecto TP2 desplegado.
 
 ### Home — Dashboard
-![Home](./img/readme/tp2-home.png)
+![Home](dist/img/readme/inicio1.png)
 
 ### Perfil Individual
-![Perfil](./img/readme/tp2-perfil.png)
+![Perfil](dist/img/readme/integrante1.png)
 
 ### Explorador de Datos
-![Explorador](./img/readme/tp2-explorador.png)
+![Explorador](dist/img/readme/explorador.png)
 
 ### API Externa
 ![API](./img/readme/tp2-api.png)
 
 ### Bitácora
-![Bitácora](./img/readme/tp2-bitacora.png)
+![Bitácora](dist/img/readme/bitacora.png)
 
 ---
 
