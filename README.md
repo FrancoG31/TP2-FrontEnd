@@ -1,6 +1,6 @@
 # Trabajo Práctico Grupal 2 — Dynamis Crew | Proyecto React
 
-**[🔗 Link al Deploy en Vercel](#)** ← reemplazar con el link real
+**[🔗 Link al Deploy en Vercel](https://tp2-front-end-dynamis.vercel.app/)** 
 
 ---
 
@@ -144,7 +144,6 @@ Cada perfil (`Ximena`, `Franco`, `Rodrigo`, `Mara`) es un componente independien
 
 ## Capturas de Pantalla
 
-> Reemplazar con capturas reales del proyecto TP2 desplegado.
 
 ### Home — Dashboard
 ![Home](dist/img/readme/inicio1.png)
@@ -165,7 +164,7 @@ Cada perfil (`Ximena`, `Franco`, `Rodrigo`, `Mara`) es un componente independien
 
 ## Enlace al Proyecto Desplegado
 
-**[🔗 Ver en Vercel](#)** ← reemplazar con el link real
+**[🔗 Ver en Vercel](https://tp2-front-end-dynamis.vercel.app/)** 
 
 ---
 
