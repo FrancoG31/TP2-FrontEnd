@@ -6,6 +6,7 @@ import Profile from './pages/Profile';
 import Galeria from './pages/Galeria';
 import ExploradorDatos from './pages/ExploradorDatos';
 import ArbolComponentes from './pages/ArbolComponentes';
+import ApiModule from './pages/ApiModule'; 
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
           <Route path="galeria" element={<Galeria />} />
           <Route path="explorador-datos" element={<ExploradorDatos />} />
           <Route path="arbol-componentes" element={<ArbolComponentes />} />
+          <Route path="api" element={<ApiModule />} />
         </Route>
       </Routes>
     </BrowserRouter>

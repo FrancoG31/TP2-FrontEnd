@@ -75,6 +75,13 @@ export default function Sidebar() {
                 <span className="link-bullet">▶</span> EXPLORADOR DE DATOS
               </NavLink>
               <NavLink 
+                to="/api" 
+                className={({ isActive }) => `sidebar-link ${isActive ? 'active' : ''}`}
+                onClick={closeSidebar}
+              >
+                <span className="link-bullet">▶</span> BASE DE DATOS EXTERNA
+              </NavLink>
+              <NavLink 
                 to="/arbol-componentes" 
                 className={({ isActive }) => `sidebar-link ${isActive ? 'active' : ''}`}
                 onClick={closeSidebar}
