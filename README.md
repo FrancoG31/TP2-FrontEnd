@@ -155,7 +155,7 @@ Cada perfil (`Ximena`, `Franco`, `Rodrigo`, `Mara`) es un componente independien
 ![Explorador](dist/img/readme/explorador.png)
 
 ### API Externa
-![API](./img/readme/tp2-api.png)
+![API](dist/img/readme/api-externa.png)
 
 ### Bitácora
 ![Bitácora](dist/img/readme/bitacora.png)
